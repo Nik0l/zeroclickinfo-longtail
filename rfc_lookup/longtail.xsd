@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="add">
+  <xs:attribute name="allowDups" type="xs:boolean"/>
+  <xs:element name="doc">
+    <xs:sequence>
+      <xs:element name="field" type="xs:string" minOccurs="7" maxOccurs="7">
+        <xs:attribute name="name" type="xs:string"/>
+      </xs:element>
+    </xs:sequence>
+  </xs:element>
+</xs:element>
+
+</xs:schema>
