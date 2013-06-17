@@ -8,9 +8,17 @@ use JSON;
 
 my $file = $ARGV[0];
 
-my $path = $file;
-$path =~ s:^\./::;
-$path =~ s:data\.json$:text-versions/enr/document.txt:;
+my $govtrack_ref = my $text_path = $file;
+
+$text_path =~ s:^\./::;
+$text_path =~ s:data\.json$:text-versions/enr/document.txt:;
+
+my ($congress, $resolution) = $file =~ m:congress/(\d+)/bills/hconres/hconres(\d+)/:;
+
+my $base = 'http://www.govtrack.us';
+
+my $link = "$base/congress/bills/$congress/hconres$resolution\n";
+my $full_text = "$base/$text_path";
 
 my $text = read_file($file);
 my $json = JSON->new->allow_nonref->decode($text);
@@ -29,7 +37,7 @@ print '<field name="paragraph"><![CDATA['
     . $json->{summary}{text}
     . "]]></field>\n";
 print '<field name="source"><![CDATA['
-    . "http://www.govtrack.us/$path"
+    . "$link"
     . "]]></field>\n";
 print '<field name="title"><![CDATA['
     . "U.S. House Bill #" . $json->{number}
