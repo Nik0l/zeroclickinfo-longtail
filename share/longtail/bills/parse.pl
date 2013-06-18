@@ -43,3 +43,4 @@ print '<field name="title"><![CDATA['
     . "U.S. House Bill #" . $json->{number}
     . ($json->{short_title} ? $json->{short_title} : "")
     . "]]></field>\n";
+print "</doc>\n";
