@@ -17,7 +17,7 @@ my ($congress, $resolution) = $file =~ m:congress/(\d+)/bills/hconres/hconres(\d
 
 my $base = 'http://www.govtrack.us';
 
-my $link = "$base/congress/bills/$congress/hconres$resolution\n";
+my $link = "$base/congress/bills/$congress/hconres$resolution";
 my $full_text = "$base/$text_path";
 
 my $text = read_file($file);
@@ -34,7 +34,7 @@ print '<field name="l4_sec"><![CDATA['
     . (join ", ", @{ $json->{subjects} })
     . "]]></field>\n";
 print '<field name="paragraph"><![CDATA['
-    . $json->{summary}{text}
+    . $json->{summary}{text} . '<br>'
     . "]]></field>\n";
 print '<field name="source"><![CDATA['
     . "$link"
