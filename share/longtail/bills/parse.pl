@@ -21,14 +21,24 @@ my $link = "$base/congress/bills/$congress/hconres$resolution";
 my $full_text = "$base/$text_path";
 
 my $text = read_file($file);
-my $json = JSON->new->allow_nonref->decode($text);
+my $json = eval { JSON->new->allow_nonref->decode($text) };
+
+die "unable to parse $file: $@\n\t" if $@;
+
+die "no title in $file\n"
+    unless exists $json->{official_title};
+
+die "no summary in $file\n"
+    unless exists $json->{summary}
+        and exists $json->{summary}{text};
 
 print "<doc>\n";
 print '<field name="l2_sec"><![CDATA['
     . $json->{official_title}
     . "]]></field>\n";
 print '<field name="l3_sec"><![CDATA['
-    . ($json->{actions}[scalar @{ $json->{actions} } - 1]{in_committee} ? $json->{actions}[scalar @{ $json->{actions} } - 1]{in_committee} : "")
+    . ($json->{actions}[scalar @{ $json->{actions} } - 1]{in_committee} ?
+        $json->{actions}[scalar @{ $json->{actions} } - 1]{in_committee} : "")
     . "]]></field>\n";
 print '<field name="l4_sec"><![CDATA['
     . (join ", ", @{ $json->{subjects} })
