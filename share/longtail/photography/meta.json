@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"special_interest\"]",
+   "perl_module" : "DDG::Longtail::Photography",
+   "icon_url" : "/i/photo.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "Photography",
+   "example_query" : "dust inside SLR",
+   "other_queries" : "[\"petal shaped lens hoods\",\"control contrast\"]",
+   "description" : "Photography answers",
+   "repo" : "longtail",
+   "src_name" : "Photography StackExchange",
+   "id" : "photography",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/Photography.pm\",\"t/Photography.t\"]"
+}

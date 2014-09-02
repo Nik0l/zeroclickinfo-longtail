@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"special_interest\"]",
+   "perl_module" : "DDG::Longtail::WordPress",
+   "icon_url" : "/i/wordpress.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "WordPress",
+   "example_query" : "wpdb separate database",
+   "other_queries" : "[\"wordpress locate_template\",\"wordpress core files\"]",
+   "description" : "WordPress discussion",
+   "repo" : "longtail",
+   "src_name" : "WordPress StackExchange",
+   "id" : "word_press",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/WordPress.pm\",\"t/WordPress.t\"]"
+}

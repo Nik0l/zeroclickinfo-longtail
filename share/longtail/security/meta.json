@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"programming\"]",
+   "perl_module" : "DDG::Longtail::Security",
+   "icon_url" : "/i/security.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "Security",
+   "example_query" : "asp.net security check list",
+   "other_queries" : "[\"security audit php\",\"rails xss prevention\"]",
+   "description" : "Security answers",
+   "repo" : "longtail",
+   "src_name" : "Security StackExchange",
+   "id" : "security",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/Security.pm\",\"t/Security.t\"]"
+}

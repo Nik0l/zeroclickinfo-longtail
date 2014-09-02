@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"sysadmin\"]",
+   "perl_module" : "DDG::Longtail::ServerFault",
+   "icon_url" : "/i/www.serverfault.com.ico",
+   "status" : "live",
+   "name" : "ServerFault",
+   "example_query" : "http compression windows server 2003",
+   "other_queries" : "[\"mysql backup\",\"ssh tunnel subversion proxy\"]",
+   "description" : "System Administration answers",
+   "repo" : "longtail",
+   "src_name" : "Server Fault",
+   "id" : "server_fault",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/ServerFault.pm\",\"t/ServerFault.t\"]"
+}

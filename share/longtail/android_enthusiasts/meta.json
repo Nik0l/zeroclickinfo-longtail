@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"geek\"]",
+   "perl_module" : "DDG::Longtail::AndroidEnthusiasts",
+   "icon_url" : "/i/android.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "AndroidEnthusiasts",
+   "example_query" : "android itunes",
+   "other_queries" : "[\"android apk sd card\",\"android root password\"]",
+   "description" : "Android answers",
+   "repo" : "longtail",
+   "src_name" : "Android Enthusiasts",
+   "id" : "android_enthusiasts",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/AndroidEnthusiasts.pm\",\"t/AndroidEnthusiasts.t\"]"
+}

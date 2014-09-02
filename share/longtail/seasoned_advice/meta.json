@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"food_and_drink\"]",
+   "perl_module" : "DDG::Longtail::SeasonedAdvice",
+   "icon_url" : "/i/cooking.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "SeasonedAdvice",
+   "example_query" : "water to rice ratio",
+   "other_queries" : "[\"homemade alfredo sauce\",\"cook bacon in oven\"]",
+   "description" : "Cooking answers",
+   "repo" : "longtail",
+   "src_name" : "Cooking StackExchange",
+   "id" : "seasoned_advice",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/SeasonedAdvice.pm\",\"t/SeasonedAdvice.t\"]"
+}

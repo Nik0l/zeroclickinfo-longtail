@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"geek\"]",
+   "perl_module" : "DDG::Longtail::AskDifferent",
+   "icon_url" : "/i/apple.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "AskDifferent",
+   "example_query" : "ipod touch gps",
+   "other_queries" : "[\"mac os x keyboard shortcuts\",\"change os x theme\"]",
+   "description" : "Apple answers",
+   "repo" : "longtail",
+   "src_name" : "Apple StackExchange",
+   "id" : "ask_different",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/AskDifferent.pm\",\"t/AskDifferent.t\"]"
+}

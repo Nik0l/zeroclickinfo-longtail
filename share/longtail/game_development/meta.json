@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"programming\"]",
+   "perl_module" : "DDG::Longtail::GameDevelopment",
+   "icon_url" : "/i/gamedev.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "GameDevelopment",
+   "example_query" : "",
+   "other_queries" : "[\"\",\"\"]",
+   "description" : "Game dev answers",
+   "repo" : "longtail",
+   "src_name" : "Game Development StackExchange",
+   "id" : "game_development",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/GameDevelopment.pm\",\"t/GameDevelopment.t\"]"
+}

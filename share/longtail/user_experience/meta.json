@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"special_interest\"]",
+   "perl_module" : "DDG::Longtail::UserExperience",
+   "icon_url" : "/i/ux.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "UserExperience",
+   "example_query" : "limit undo history",
+   "other_queries" : "[\"inspire users to strong password\",\"view deep hierarchy\"]",
+   "description" : "User experience discussion",
+   "repo" : "longtail",
+   "src_name" : "UserExperience StackExchange",
+   "id" : "user_experience",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/UserExperience.pm\",\"t/UserExperience.t\"]"
+}

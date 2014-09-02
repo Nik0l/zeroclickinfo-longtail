@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"programming\"]",
+   "perl_module" : "DDG::Longtail::StackOverflow",
+   "icon_url" : "/i/www.stackoverflow.com.ico",
+   "status" : "live",
+   "name" : "StackOverflow",
+   "example_query" : "apache nginx",
+   "other_queries" : "[\"sorting numbers in ram\",\"BerkeleyDB Concurrency\"]",
+   "description" : "Programming answers",
+   "repo" : "longtail",
+   "src_name" : "Stack Overflow",
+   "id" : "stack_overflow",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/StackOverflow.pm\",\"t/StackOverflow.t\"]"
+}

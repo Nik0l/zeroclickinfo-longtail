@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"geek\"]",
+   "perl_module" : "DDG::Longtail::ScienceFiction",
+   "icon_url" : "/i/scifi.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "ScienceFiction",
+   "example_query" : "asimov robots",
+   "other_queries" : "[\"origin of star wars\",\"FTL drive cylon\"]",
+   "description" : "Science Fiction answers",
+   "repo" : "longtail",
+   "src_name" : "Science Fiction StackExchange",
+   "id" : "science_fiction",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/ScienceFiction.pm\",\"t/ScienceFiction.t\"]"
+}

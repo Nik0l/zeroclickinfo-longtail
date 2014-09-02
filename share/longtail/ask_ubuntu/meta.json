@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"sysadmin\"]",
+   "perl_module" : "DDG::Longtail::AskUbuntu",
+   "icon_url" : "/i/askubuntu.com.ico",
+   "status" : "live",
+   "name" : "AskUbuntu",
+   "example_query" : "battery life ubuntu kubuntu",
+   "other_queries" : "[\"gedit split pane\",\"reset keyboard layout\"]",
+   "description" : "Ubuntu answers",
+   "repo" : "longtail",
+   "src_name" : "Ubuntu StackExchange",
+   "id" : "ask_ubuntu",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/AskUbuntu.pm\",\"t/AskUbuntu.t\"]"
+}

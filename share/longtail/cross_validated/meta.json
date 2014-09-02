@@ -1,0 +1,15 @@
+{
+   "topic" : "[\"math\"]",
+   "perl_module" : "DDG::Longtail::CrossValidated",
+   "icon_url" : "/i/stats.stackexchange.com.ico",
+   "status" : "live",
+   "name" : "CrossValidated",
+   "example_query" : "spatial models car",
+   "other_queries" : "[\"structural equation modeling techniques\",\"famous statistician quotes\"]",
+   "description" : "Statistics answers",
+   "repo" : "longtail",
+   "src_name" : "Statistics StackExcchange",
+   "id" : "cross_validated",
+   "dev_milestone" : "live",
+   "code" : "[\"lib/DDG/Longtail/CrossValidated.pm\",\"t/CrossValidated.t\"]"
+}
