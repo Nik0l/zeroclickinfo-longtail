@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"math\"]",
+   "topic" : [
+      "math & science"
+   ],
    "perl_module" : "DDG::Longtail::Mathematics",
    "icon_url" : "/i/math.stackexchange.com.ico",
    "status" : "live",
    "name" : "Mathematics",
    "example_query" : "points vector space to another",
-   "other_queries" : "[\"types of infinity\",\"discriminant polynomial less than 0\"]",
+   "other_queries" : [
+      "types of infinity",
+      "discriminant polynomial less than 0"
+   ],
    "description" : "Math answers",
    "repo" : "longtail",
    "src_name" : "Mathematics StackExchange",
    "id" : "mathematics",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Mathematics.pm\",\"t/Mathematics.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Mathematics.pm",
+      "t/Mathematics.t"
+   ]
 }

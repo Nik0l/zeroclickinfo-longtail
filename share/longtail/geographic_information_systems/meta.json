@@ -1,15 +1,24 @@
 {
-   "topic" : "[\"science\"]",
+   "topic" : [
+      "math & science"
+   ],
    "perl_module" : "DDG::Longtail::GeographicInformationSystems",
    "icon_url" : "/i/gis.stackexchange.com.ico",
    "status" : "live",
    "name" : "GeographicInformationSystems",
    "example_query" : "esri data formats",
-   "other_queries" : "[\"layers in mapfile\",\"postgis from arcmap\",\"share geodatabases safely\"]",
+   "other_queries" : [
+      "layers in mapfile",
+      "postgis from arcmap",
+      "share geodatabases safely"
+   ],
    "description" : "Geographic info answers",
    "repo" : "longtail",
    "src_name" : "GeographicInformationSystems StackExchange",
    "id" : "geographic_information_systems",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/GeographicInformationSystems.pm\",\"t/GeographicInformationSystems.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/GeographicInformationSystems.pm",
+      "t/GeographicInformationSystems.t"
+   ]
 }

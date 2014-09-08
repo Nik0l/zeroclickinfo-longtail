@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"trivia\"]",
+   "topic" : [
+      "other / special interest"
+   ],
    "perl_module" : "DDG::Longtail::Quora",
    "icon_url" : "/i/quora.com.ico",
    "status" : "live",
    "name" : "Quora",
    "example_query" : "",
-   "other_queries" : "[\"\",\"\"]",
+   "other_queries" : [
+      "",
+      ""
+   ],
    "description" : "Quora",
    "repo" : "longtail",
    "src_name" : "Quora",
    "id" : "quora",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Quora.pm\",\"t/Quora.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Quora.pm",
+      "t/Quora.t"
+   ]
 }

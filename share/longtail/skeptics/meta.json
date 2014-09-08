@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"science\"]",
+   "topic" : [
+      "math & science"
+   ],
    "perl_module" : "DDG::Longtail::Skeptics",
    "icon_url" : "/i/skeptics.stackexchange.com.ico",
    "status" : "live",
    "name" : "Skeptics",
    "example_query" : "mix lysol and bleach",
-   "other_queries" : "[\"more babies during full moons\",\"adult multi-vitamin\"]",
+   "other_queries" : [
+      "more babies during full moons",
+      "adult multi-vitamin"
+   ],
    "description" : "Scientific Skeptics",
    "repo" : "longtail",
    "src_name" : "Skeptics StackExchange",
    "id" : "skeptics",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Skeptics.pm\",\"t/Skeptics.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Skeptics.pm",
+      "t/Skeptics.t"
+   ]
 }

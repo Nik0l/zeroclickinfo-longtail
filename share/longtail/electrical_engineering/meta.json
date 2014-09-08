@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"special_interest\"]",
+   "topic" : [
+      "other / special interest"
+   ],
    "perl_module" : "DDG::Longtail::ElectricalEngineering",
    "icon_url" : "/i/electronics.stackexchange.com.ico",
    "status" : "live",
    "name" : "ElectricalEngineering",
    "example_query" : "",
-   "other_queries" : "[\"\",\"\"]",
+   "other_queries" : [
+      "",
+      ""
+   ],
    "description" : "Electrical Engineering answers",
    "repo" : "longtail",
    "src_name" : "Electrical Engineering StackExchange",
    "id" : "electrical_engineering",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/ElectricalEngineering.pm\",\"t/ElectricalEngineering.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/ElectricalEngineering.pm",
+      "t/ElectricalEngineering.t"
+   ]
 }

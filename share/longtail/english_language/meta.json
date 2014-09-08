@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"special_interest\"]",
+   "topic" : [
+      "other / special interest"
+   ],
    "perl_module" : "DDG::Longtail::EnglishLanguage",
    "icon_url" : "/i/english.stackexchange.com.ico",
    "status" : "live",
    "name" : "EnglishLanguage",
    "example_query" : "shortest complete sentence",
-   "other_queries" : "[\"who vs. whom\",\"their instead of his or her\"]",
+   "other_queries" : [
+      "who vs. whom",
+      "their instead of his or her"
+   ],
    "description" : "English answers",
    "repo" : "longtail",
    "src_name" : "English Language StackExchange",
    "id" : "english_language",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/EnglishLanguage.pm\",\"t/EnglishLanguage.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/EnglishLanguage.pm",
+      "t/EnglishLanguage.t"
+   ]
 }

@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"special_interest\"]",
+   "topic" : [
+      "other / special interest"
+   ],
    "perl_module" : "DDG::Longtail::Tex",
    "icon_url" : "/i/tex.stackexchange.com.ico",
    "status" : "live",
    "name" : "Tex",
    "example_query" : "matrix latex document",
-   "other_queries" : "[\"define macros lyx\",\"resume template latex\"]",
+   "other_queries" : [
+      "define macros lyx",
+      "resume template latex"
+   ],
    "description" : "Typesetting answers",
    "repo" : "longtail",
    "src_name" : "LaTex StackExchange",
    "id" : "tex",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Tex.pm\",\"t/Tex.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Tex.pm",
+      "t/Tex.t"
+   ]
 }

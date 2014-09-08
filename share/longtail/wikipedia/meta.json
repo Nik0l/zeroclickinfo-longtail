@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"everyday\"]",
+   "topic" : [
+      "productivity"
+   ],
    "perl_module" : "DDG::Longtail::Wikipedia",
    "icon_url" : "/i/wikipedia.com.ico",
    "status" : "live",
    "name" : "Wikipedia",
    "example_query" : "snow albedo",
-   "other_queries" : "[\"darpa early history\",\"will mcraven\"]",
+   "other_queries" : [
+      "darpa early history",
+      "will mcraven"
+   ],
    "description" : "Wikipedia full text search",
    "repo" : "longtail",
    "src_name" : "Wikipedia",
    "id" : "wikipedia",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Wikipedia.pm\",\"t/Wikipedia.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Wikipedia.pm",
+      "t/Wikipedia.t"
+   ]
 }

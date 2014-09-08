@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"sysadmin\"]",
+   "topic" : [
+      "code & hacking"
+   ],
    "perl_module" : "DDG::Longtail::SuperUser",
    "icon_url" : "/i/superuser.com.ico",
    "status" : "live",
    "name" : "SuperUser",
    "example_query" : "pdf viewer windows",
-   "other_queries" : "[\"virtualizing windows home server\",\"ubuntu pppoe timeout\"]",
+   "other_queries" : [
+      "virtualizing windows home server",
+      "ubuntu pppoe timeout"
+   ],
    "description" : "Power user forum",
    "repo" : "longtail",
    "src_name" : "SuperUser StackExchange",
    "id" : "super_user",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/SuperUser.pm\",\"t/SuperUser.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/SuperUser.pm",
+      "t/SuperUser.t"
+   ]
 }

@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"special_interest\"]",
+   "topic" : [
+      "other / special interest"
+   ],
    "perl_module" : "DDG::Longtail::Bicycles",
    "icon_url" : "/i/bicycles.stackexchange.com.ico",
    "status" : "live",
    "name" : "Bicycles",
    "example_query" : "iphone app bikers",
-   "other_queries" : "[\"choose bicycle seat\",\"derailleur cage lengths\"]",
+   "other_queries" : [
+      "choose bicycle seat",
+      "derailleur cage lengths"
+   ],
    "description" : "Bicycles answers",
    "repo" : "longtail",
    "src_name" : "Bicycles StackExchange",
    "id" : "bicycles",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Bicycles.pm\",\"t/Bicycles.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Bicycles.pm",
+      "t/Bicycles.t"
+   ]
 }

@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"gaming\"]",
+   "topic" : [
+      "gaming"
+   ],
    "perl_module" : "DDG::Longtail::Arqade",
    "icon_url" : "/i/gaming.stackexchange.com.ico",
    "status" : "live",
    "name" : "Arqade",
    "example_query" : "avoid being detected left 4 dead",
-   "other_queries" : "[\"defcon strategies\",\"golden guns gears of war\"]",
+   "other_queries" : [
+      "defcon strategies",
+      "golden guns gears of war"
+   ],
    "description" : "Gaming answers",
    "repo" : "longtail",
    "src_name" : "Gaming StackExchange",
    "id" : "arqade",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Arqade.pm\",\"t/Arqade.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Arqade.pm",
+      "t/Arqade.t"
+   ]
 }

@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"everyday\"]",
+   "topic" : [
+      "productivity"
+   ],
    "perl_module" : "DDG::Longtail::HomeImprovement",
    "icon_url" : "/i/diy.stackexchange.com.ico",
    "status" : "live",
    "name" : "HomeImprovement",
    "example_query" : "fill concrete seawall",
-   "other_queries" : "[\"stucco repair cracks\",\"caulk for bathtub\"]",
+   "other_queries" : [
+      "stucco repair cracks",
+      "caulk for bathtub"
+   ],
    "description" : "Home improvment answers",
    "repo" : "longtail",
    "src_name" : "Home Improvment StackExchange",
    "id" : "home_improvement",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/HomeImprovement.pm\",\"t/HomeImprovement.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/HomeImprovement.pm",
+      "t/HomeImprovement.t"
+   ]
 }

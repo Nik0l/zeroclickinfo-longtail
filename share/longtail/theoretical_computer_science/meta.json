@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"science\"]",
+   "topic" : [
+      "math & science"
+   ],
    "perl_module" : "DDG::Longtail::TheoreticalComputerScience",
    "icon_url" : "/i/cstheory.stackexchange.com.ico",
    "status" : "live",
    "name" : "TheoreticalComputerScience",
    "example_query" : "generalizing the fft",
-   "other_queries" : "[\"DFA intersection\",\"error-correcting theory\"]",
+   "other_queries" : [
+      "DFA intersection",
+      "error-correcting theory"
+   ],
    "description" : "Computer science theory",
    "repo" : "longtail",
    "src_name" : "CS Theory StackExchange",
    "id" : "theoretical_computer_science",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/TheoreticalComputerScience.pm\",\"t/TheoreticalComputerScience.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/TheoreticalComputerScience.pm",
+      "t/TheoreticalComputerScience.t"
+   ]
 }

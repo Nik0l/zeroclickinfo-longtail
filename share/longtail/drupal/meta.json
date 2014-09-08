@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"web_design\"]",
+   "topic" : [
+      "code & hacking"
+   ],
    "perl_module" : "DDG::Longtail::Drupal",
    "icon_url" : "/i/drupal.stackexchange.com.ico",
    "status" : "live",
    "name" : "Drupal",
    "example_query" : "convert wordpress to drupal theme",
-   "other_queries" : "[\"hook_preprocess_page\",\"drupal_goto\"]",
+   "other_queries" : [
+      "hook_preprocess_page",
+      "drupal_goto"
+   ],
    "description" : "Drupal answers",
    "repo" : "longtail",
    "src_name" : "Drupal StackExchange",
    "id" : "drupal",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Drupal.pm\",\"t/Drupal.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Drupal.pm",
+      "t/Drupal.t"
+   ]
 }

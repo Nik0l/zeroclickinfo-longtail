@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"science\"]",
+   "topic" : [
+      "math & science"
+   ],
    "perl_module" : "DDG::Longtail::Physics",
    "icon_url" : "/i/physics.stackexchange.com.ico",
    "status" : "live",
    "name" : "Physics",
    "example_query" : "photons per second in lumen",
-   "other_queries" : "[\"sound propagation air pressure\",\"is the ISS electrically charged\"]",
+   "other_queries" : [
+      "sound propagation air pressure",
+      "is the ISS electrically charged"
+   ],
    "description" : "Physics answers",
    "repo" : "longtail",
    "src_name" : "Physics StackExchange",
    "id" : "physics",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Physics.pm\",\"t/Physics.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Physics.pm",
+      "t/Physics.t"
+   ]
 }

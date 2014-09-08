@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"music\"]",
+   "topic" : [
+      "music"
+   ],
    "perl_module" : "DDG::Longtail::Lyrics",
    "icon_url" : "/i/www.lyricsmode.com.ico",
    "status" : "live",
    "name" : "Lyrics",
    "example_query" : "jesus walks lyrics",
-   "other_queries" : "[\"panama lyrics\",\"lean on me lyrics\"]",
+   "other_queries" : [
+      "panama lyrics",
+      "lean on me lyrics"
+   ],
    "description" : "Lyrics",
    "repo" : "longtail",
    "src_name" : "LyricsMode",
    "id" : "lyrics",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Lyrics.pm\",\"t/Lyrics.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Lyrics.pm",
+      "t/Lyrics.t"
+   ]
 }

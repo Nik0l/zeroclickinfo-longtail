@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"sysadmin\"]",
+   "topic" : [
+      "code & hacking"
+   ],
    "perl_module" : "DDG::Longtail::Unix",
    "icon_url" : "/i/unix.stackexchange.com.ico",
    "status" : "live",
    "name" : "Unix",
    "example_query" : "rc.local equivalent shutdown",
-   "other_queries" : "[\"sftp to scp\",\"nano syntax highlighting\"]",
+   "other_queries" : [
+      "sftp to scp",
+      "nano syntax highlighting"
+   ],
    "description" : "Unix answers",
    "repo" : "longtail",
    "src_name" : "Unix StackExchange",
    "id" : "unix",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/Unix.pm\",\"t/Unix.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/Unix.pm",
+      "t/Unix.t"
+   ]
 }

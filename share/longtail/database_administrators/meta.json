@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"programming\"]",
+   "topic" : [
+      "code & hacking"
+   ],
    "perl_module" : "DDG::Longtail::DatabaseAdministrators",
    "icon_url" : "/i/dba.stackexchange.com.ico",
    "status" : "live",
    "name" : "DatabaseAdministrators",
    "example_query" : "sqlplus interface",
-   "other_queries" : "[\"\",\"\"]",
+   "other_queries" : [
+      "",
+      ""
+   ],
    "description" : "Database answers",
    "repo" : "longtail",
    "src_name" : "DBA StackExchange",
    "id" : "database_administrators",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/DatabaseAdministrators.pm\",\"t/DatabaseAdministrators.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/DatabaseAdministrators.pm",
+      "t/DatabaseAdministrators.t"
+   ]
 }

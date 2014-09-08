@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"sysadmin\"]",
+   "topic" : [
+      "code & hacking"
+   ],
    "perl_module" : "DDG::Longtail::ProWebmasters",
    "icon_url" : "/i/webmasters.stackexchange.com.ico",
    "status" : "live",
    "name" : "ProWebmasters",
    "example_query" : "robots.txt configuration",
-   "other_queries" : "[\"sitemaps html\",\"css reduction\"]",
+   "other_queries" : [
+      "sitemaps html",
+      "css reduction"
+   ],
    "description" : "Webmaster answers",
    "repo" : "longtail",
    "src_name" : "ProWebmasters StackExchange",
    "id" : "pro_webmasters",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/ProWebmasters.pm\",\"t/ProWebmasters.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/ProWebmasters.pm",
+      "t/ProWebmasters.t"
+   ]
 }

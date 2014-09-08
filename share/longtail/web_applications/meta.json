@@ -1,15 +1,23 @@
 {
-   "topic" : "[\"programming\"]",
+   "topic" : [
+      "code & hacking"
+   ],
    "perl_module" : "DDG::Longtail::WebApplications",
    "icon_url" : "/i/webapps.stackexchange.com.ico",
    "status" : "live",
    "name" : "WebApplications",
    "example_query" : "delete my facebook account",
-   "other_queries" : "[\"facebook detects gmail\",\"forward multiple emails gmail\"]",
+   "other_queries" : [
+      "facebook detects gmail",
+      "forward multiple emails gmail"
+   ],
    "description" : "Web application discussion",
    "repo" : "longtail",
    "src_name" : "WebApplication StackExchange",
    "id" : "web_applications",
    "dev_milestone" : "live",
-   "code" : "[\"lib/DDG/Longtail/WebApplications.pm\",\"t/WebApplications.t\"]"
+   "code" : [
+      "lib/DDG/Longtail/WebApplications.pm",
+      "t/WebApplications.t"
+   ]
 }
