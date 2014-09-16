@@ -18,6 +18,13 @@
    "dev_milestone" : "live",
    "code" : [
       "lib/DDG/Longtail/Quora.pm",
-      "t/Quora.t"
+      "t/Quora.t",
+      "share/longtail/quora/README.md",
+      "share/longtail/quora/crawl.js",
+      "share/longtail/quora/download.js",
+      "share/longtail/quora/jquery.min.js",
+      "share/longtail/quora/package.json",
+      "share/longtail/quora/parse.js",
+      "share/longtail/quora/util.js"
    ]
 }

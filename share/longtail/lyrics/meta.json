@@ -18,6 +18,9 @@
    "dev_milestone" : "live",
    "code" : [
       "lib/DDG/Longtail/Lyrics.pm",
-      "t/Lyrics.t"
+      "t/Lyrics.t",
+      "share/longtail/lyrics/README",
+      "share/longtail/lyrics/lyrics.pre-process.pl",
+      "share/longtail/lyrics/scraper"
    ]
 }
